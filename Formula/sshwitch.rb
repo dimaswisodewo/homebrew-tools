@@ -1,15 +1,15 @@
 class Sshwitch < Formula
   desc "Manage SSH keys for Git repositories"
   homepage "https://github.com/dimaswisodewo/sshwitch"
-  version "0.1.0"
+  version ".0.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dimaswisodewo/sshwitch/releases/download/v0.1.0/sshwitch-arm64.tar.gz"
-      sha256 "c592ad942650fa015aafec203d219632763226f4280f3f44a7a0d52faa9d2a63"
+      url "https://github.com/dimaswisodewo/sshwitch/releases/download/v.0.1.0/sshwitch-arm64.tar.gz"
+      sha256 "bf1c8170b218cb0b24e1984c3ec417bc96aaa1bdc9c0447427a5e6ca6aef0424"
     else
-      url "https://github.com/dimaswisodewo/sshwitch/releases/download/v0.1.0/sshwitch-x86_64.tar.gz"
-      sha256 "04ab1ff26f7236763e5f06c756543b33fc042a42a6aebfa575bb8070f34390f0"
+      url "https://github.com/dimaswisodewo/sshwitch/releases/download/v.0.1.0/sshwitch-x86_64.tar.gz"
+      sha256 "73b36a8c290bed389681cadaf1b3d75fe6ad4e37336098fa6f511d3500751ed4"
     end
   end
 
